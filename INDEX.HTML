@@ -11,12 +11,24 @@
     <div class="calculator">
       <div class="header">
         <h2>Advanced Calculator</h2>
-        <button id="theme-toggle">🌙</button>
+        <div class="header-controls">
+          <button id="memory-clear" title="Memory Clear">MC</button>
+          <button id="theme-toggle">🌙</button>
+        </div>
       </div>
 
       <input type="text" id="display" readonly />
 
+      <div class="memory-indicator">
+        <span id="memory-status">Memory: Empty</span>
+      </div>
+
       <div class="buttons">
+        <button class="func-btn" data-func="sqrt">√</button>
+        <button class="func-btn" data-func="square">x²</button>
+        <button class="func-btn" data-func="power">x^y</button>
+        <button class="func-btn" data-func="pi">π</button>
+
         <button>(</button>
         <button>)</button>
         <button id="clear">C</button>
@@ -41,11 +53,19 @@
         <button>.</button>
         <button id="equal">=</button>
         <button>+</button>
+
+        <button class="func-btn" data-func="percent">%</button>
+        <button class="func-btn" data-func="memory-add">M+</button>
+        <button class="func-btn" data-func="memory-recall">MR</button>
+        <button class="func-btn" data-func="factorial">x!</button>
       </div>
     </div>
 
     <div class="history">
-      <h3>History</h3>
+      <div class="history-header">
+        <h3>History</h3>
+        <button id="clear-history">Clear</button>
+      </div>
       <ul id="history-list"></ul>
     </div>
   </div>
