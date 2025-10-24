@@ -1,26 +1,20 @@
-Advanced Calculator
+⚙️ Advanced Web Calculator
+A modern, interactive web calculator built using HTML, CSS, and JavaScript.
+This project features a sleek neon-style UI, history tracking, and theme switching for an engaging user experience.
 
-A modern, responsive, and interactive Advanced Calculator built using HTML, CSS, and JavaScript.
-It features dark/light theme switching, keyboard support, and a calculation history panel.
+🚀 Features
+🧮 Basic and Advanced Calculations – Perform arithmetic operations and more.
+🌗 Dark/Light Theme Toggle – Switch between professional dark and bright light modes.
+🧠 Calculation History Panel – Keeps track of your recent operations.
+🧹 Clear & Backspace Buttons – Manage inputs efficiently.
+💾 Memory Functions – Save, recall, and clear stored results.
+📱 Responsive Design – Fully optimized for mobile and desktop views.
+✨ Animated Neon UI – Built with glowing borders and dynamic hover effects using CSS.
 
-Features:
-• Modern UI with responsive design using CSS grid and flexbox
-• Dark/Light Mode toggle with a single click
-• Keyboard input support for quick operations
-• History tracking for recent calculations
-• Error handling for invalid inputs
-• Lightweight and fast – no frameworks required
-
-Project Structure:
-index.html – Main HTML file
-style.css – Handles styling, layout, and themes
-script.js – Contains the calculator logic and event handling
-launch.json – VS Code launch configuration for debugging
-README.md – Project documentation
-
-Built With:
-• HTML5 – Structure
-• CSS3 – Styling and themes
-• JavaScript (ES6) – Logic and interactivity
-
-Would you like me to tailor this for your actual GitHub username and email so you can paste it directly?
+🧩 Tech Stack
+Technology	                Purpose
+HTML5                  Structure of the calculator
+CSS3	                 Styling, gradients, animations, and responsiveness
+JavaScript  	         Logic for button events, calculations, and UI updates
+Font Awesome	         Icons for buttons and controls
+VS Code Launch Config  Chrome debugging setup in launch.json
